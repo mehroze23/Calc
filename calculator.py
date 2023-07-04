@@ -14,6 +14,6 @@ class Calculator:
 
     def sub(self):
         return "stuff"
-
+ 
     def add(self):
         return self.x + self.y
