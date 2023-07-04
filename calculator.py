@@ -7,7 +7,11 @@ class Calculator:
         return f"X: {self.x}, Y: {self.y}"
 
     def div(self):
-        return "stuff"
+        try:
+            return float(self.x) / float(self.y)
+        except ZeroDivisionError as err:
+            print("cannot divide by 0")
+            return 0
 
     def mul(self):
         return self.x * self.y
