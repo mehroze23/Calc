@@ -8,9 +8,9 @@ class Calculator:
 
     try:
         def div(self):
-        return "stuff"
+        return x/y
     except ZeroDivisionError as err:
-        print( "Dividing by Zero!")
+        return print( "Dividing by Zero!")
 
     def mul(self):
         return self.x * self.y
