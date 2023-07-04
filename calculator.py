@@ -6,11 +6,12 @@ class Calculator:
     def __str__(self):
         return f"X: {self.x}, Y: {self.y}"
 
-    try:
-        def div(self):
-        return x/y
-    except ZeroDivisionError as err:
-        return print( "Dividing by Zero!")
+    def div(self):
+        try:
+            return float(self.x) / float(self.y)
+        except ZeroDivisionError as err:
+            print("cannot divide by 0")
+            return 0
 
     def mul(self):
         return self.x * self.y
