@@ -13,7 +13,7 @@ class Calculator:
         return self.x * self.y
 
     def sub(self):
-        return "stuff"
+        return f"Subtration result is {self.x-self.y}"
  
     def add(self):
         return self.x + self.y
