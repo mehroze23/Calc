@@ -7,7 +7,7 @@ class Calculator:
         return f"X: {self.x}, Y: {self.y}"
 
     def div(self):
-        return "stuff"
+        return f"Division result is: {self.x/self.y}"
 
     def mul(self):
         return self.x * self.y
